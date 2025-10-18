@@ -1,0 +1,7 @@
+npm init -y
+node app.js
+
+npm install typescript --save-dev
+tsc app.ts
+
+node app.js
