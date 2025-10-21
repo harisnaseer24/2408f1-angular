@@ -97,30 +97,14 @@ namespace _2302C2CodeFirstAPI.Controllers
 
         }
 
-        [HttpDelete]
-        public IActionResult DeleteEvent(EventDTO ev)
+        [HttpDelete("{id}")]
+        public IActionResult DeleteEvent(int id)
         {
-            if (ev != null)
-            {
-                var Event = db.Events.Find(ev.Id);
-                if (Event != null)
-                {
-                    var deletedEvent = db.Events.Remove(Event);
-                    db.SaveChanges();
-                    return Ok(deletedEvent.Entity);
-                }
-                else
-                {
-                    return BadRequest("Event not found");
-                }
-
-            }
-            else
-            {
-                return BadRequest("INVALID DATA");
-            }
-
-
+            var ev = db.Events.Find(id);
+            if (ev == null) return NotFound("Event not found");
+            db.Events.Remove(ev);
+            db.SaveChanges();
+            return Ok("Deleted");
         }
         [HttpGet("Search/{q}")]
         public IActionResult SearchEvent(string q)

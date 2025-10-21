@@ -143,3 +143,4 @@ C:\Users\harisnaseer\OneDrive\Desktop\2408f1 typescript\2302C2-fullstack-main\23
 C:\Users\harisnaseer\OneDrive\Desktop\2408f1 typescript\2302C2-fullstack-main\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net8.0\2302C2CodeFirstAPI.pdb
 C:\Users\harisnaseer\OneDrive\Desktop\2408f1 typescript\2302C2-fullstack-main\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net8.0\2302C2CodeFirstAPI.genruntimeconfig.cache
 C:\Users\harisnaseer\OneDrive\Desktop\2408f1 typescript\2302C2-fullstack-main\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net8.0\ref\2302C2CodeFirstAPI.dll
+C:\Users\harisnaseer\OneDrive\Desktop\2408f1 typescript\2302C2-fullstack-main\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net8.0\2302C2CodeFirstAPI.sourcelink.json
